@@ -1,10 +1,18 @@
 **********************************
-Author: Thomas Calvet
-Contact: thomas.calvet@epfedu.fr
+Instructor's name: **Naci Dilekli** 
+Instructor's github: *https://github.com/ndilekli/*
+Author's name: **Thomas Calvet** (EPF Student)
+Author's github: *https://github.com/Thomas-C-EPF*
+Contact the author: thomas.calvet@epfedu.fr
 **********************************
-Welcome to my project!
-Here you will be able to find your dream city in the US!
+This project developed for the Geospatial Programming class of Spring 2020, an international collaboration between two universities, EPF of France and RUDN of Russia”.
+*https://www.epf.fr/*
+*http://www.rudn.ru*
 ********************************** 
+Purpose:
+This work allow you to find the best city to live in while minimizing nuclear contmaination and pollution risks.
+********************************** 
+How to use:
 The function you have to run is this simple but please make sure to locate the "Thomas_Calvet_City_Choice" in your Local Disk (C:) otherwise you may encounter problems. 
 **********************************
 Function:
@@ -22,8 +30,6 @@ If you are running into trouble
 or having question, feel free to 
 contact me whatever the 
 subject is.
-********************************** 
-Thank you for all your help and knowledge thourghout all classes and project!
 
 Thomas.
 ********************************** 

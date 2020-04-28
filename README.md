@@ -21,7 +21,8 @@ This work allow you to find the best city to live in while minimizing nuclear co
 *Screenshot4* = Final results (best cities according to user entered parameters) after computing the function  
 
 4. **How it works:**  
-The function takes as inputs, the distances from nuclear (*Screenshot1*), coal, and gas power plants (*Screenshot0*) as well as your   choice in terms of minimum population and the vacancy rate of your dream city. It then creates buffers related to your distances inputs   (*Screenshot2*) and substract all cities (*Screenshot3*) that are located inside the "high risks" area. Moreover, user entered   conditions helps to get a more relevant city choice and finally sorts the remaining cities (*Screenshot4*) in the desired order (user   entered order as well).  
+The function takes as inputs, the distances from nuclear (*Screenshot1*), coal, and gas power plants (*Screenshot0*) as well as your   choice in terms of minimum population and the vacancy rate of your dream city. It then creates buffers related to your distances inputs
+(*Screenshot2*) and substract all cities (*Screenshot3*) that are located inside the "high risks" area. Moreover, user entered   conditions helps to get a more relevant city choice and finally sorts the remaining cities (*Screenshot4*) in the desired order (user   entered order as well).  
 The *flowchart* is also available to provide other information.  
 
 5. **How to use:**  

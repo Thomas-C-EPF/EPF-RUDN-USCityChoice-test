@@ -21,17 +21,21 @@ This work allow you to find the best city to live in while minimizing nuclear co
 *Screenshot4* = Final results (best cities according to user entered parameters) after computing the function  
 
 4. **How it works:**  
-The function takes as inputs, the distances from nuclear  
-![Nuclear Hazard](https://github.com/Thomas-C-EPF/EPF-RUDN-USCityChoice-test/blob/master/Screenshot0.png)   
-, coal, and gas power plants ![Nuclear and Pollution high risks areas](https://github.com/Thomas-C-EPF/EPF-RUDN-USCityChoice-test/blob/master/Screenshot1.png) as well as your   choice in terms of minimum population and the vacancy rate of your dream city.  
-It then creates buffers related to your distances inputs  
+The function takes as inputs, the distances from nuclear, coal, and gas power plants as well as your choice in terms of minimum population and the vacancy rate of your dream city.   
+
+![Nuclear Hazard](https://github.com/Thomas-C-EPF/EPF-RUDN-USCityChoice-test/blob/master/Screenshot0.png)  
+
+It then creates buffers related to your distances inputs and substract all cities that are located inside the "high risks" area.  
+![Nuclear and Pollution high risks areas](https://github.com/Thomas-C-EPF/EPF-RUDN-USCityChoice-test/blob/master/Screenshot1.png) 
 ![Major US cities](https://github.com/Thomas-C-EPF/EPF-RUDN-USCityChoice-test/blob/master/Screenshot2.png)  
-and substract all cities  
+
+US major cities is part of the inputs. All cities that do not fulfill all requirements will be substracted due to the high risks areas buffers intersection. This first selection highlights all cities that are **out** of the high risk areas.
 ![Image description](https://github.com/Thomas-C-EPF/EPF-RUDN-USCityChoice-test/blob/master/Screenshot3.png)  
-that are located inside the "high risks" area. Moreover, user entered conditions helps to get a more relevant city choice and finally sorts the remaining cities  
+Finally, it sorts the remaining cities in the desired order (user   entered order as well).    
+
 ![Last cities remaining](https://github.com/Thomas-C-EPF/EPF-RUDN-USCityChoice-test/blob/master/Screenshot4.png)   
-in the desired order (user   entered order as well).  
 The *flowchart* is also available to provide other information. 
+
 ![Project Flowchart](https://github.com/Thomas-C-EPF/EPF-RUDN-USCityChoice-test/blob/master/flowchart.png)
 
 5. **How to use:**  

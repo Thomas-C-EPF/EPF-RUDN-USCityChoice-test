@@ -21,9 +21,18 @@ This work allow you to find the best city to live in while minimizing nuclear co
 *Screenshot4* = Final results (best cities according to user entered parameters) after computing the function  
 
 4. **How it works:**  
-The function takes as inputs, the distances from nuclear (*Screenshot1*), coal, and gas power plants (*Screenshot0*) as well as your   choice in terms of minimum population and the vacancy rate of your dream city. It then creates buffers related to your distances inputs
-(*Screenshot2*) and substract all cities (*Screenshot3*) that are located inside the "high risks" area. Moreover, user entered   conditions helps to get a more relevant city choice and finally sorts the remaining cities (*Screenshot4*) in the desired order (user   entered order as well).  
-The *flowchart* is also available to provide other information.  
+The function takes as inputs, the distances from nuclear  
+![Nuclear Hazard](https://github.com/Thomas-C-EPF/EPF-RUDN-USCityChoice-test/blob/master/Screenshot0.png)   
+, coal, and gas power plants ![Nuclear and Pollution high risks areas](https://github.com/Thomas-C-EPF/EPF-RUDN-USCityChoice-test/blob/master/Screenshot1.png) as well as your   choice in terms of minimum population and the vacancy rate of your dream city.  
+It then creates buffers related to your distances inputs  
+![Major US cities](https://github.com/Thomas-C-EPF/EPF-RUDN-USCityChoice-test/blob/master/Screenshot2.png)  
+and substract all cities  
+![Image description](https://github.com/Thomas-C-EPF/EPF-RUDN-USCityChoice-test/blob/master/Screenshot3.png)  
+that are located inside the "high risks" area. Moreover, user entered conditions helps to get a more relevant city choice and finally sorts the remaining cities  
+![Last cities remaining](https://github.com/Thomas-C-EPF/EPF-RUDN-USCityChoice-test/blob/master/Screenshot4.png)   
+in the desired order (user   entered order as well).  
+The *flowchart* is also available to provide other information. 
+![Project Flowchart](https://github.com/Thomas-C-EPF/EPF-RUDN-USCityChoice-test/blob/master/flowchart.png)
 
 5. **How to use:**  
 *First:* Create a folder named "Thomas_Calvet_City_Choice"  

@@ -11,9 +11,23 @@ This project developed for the Geospatial Programming class of Spring 2020, an i
 ********************************** 
 Purpose:
 This work allow you to find the best city to live in while minimizing nuclear contmaination and pollution risks.
+*Screenshot0* = General risks points (nuclear tests sites, nuclear, gas and coal power plants)
+*Screenshot1* = Nuclear High risks ares
+*Screenshot2* = Combined risks areas (nuclear and humain pollution)
+*Screenshot3* = Major cities in the USA
+*Screenshot4* = Final results (best cities according to user entered parameters) after computing the function
+********************************** 
+How it works:
+The function takes as inputs, the distances from nuclear (*Screenshot1*), coal, and gas power plants (*Screenshot0*) as well as your choice in terms of minimum population and the vacancy rate of your dream city. It then creates buffers related to your distances inputs (*Screenshot2*) and substract all cities (*Screenshot3*) that are located inside the "high risks" area. Moreover, user entered conditions helps to get a more relevant city choice and finally sorts the remaining cities (*Screenshot4*) in the desired order (user entered order as well).
+The *flowchart* is also available to provide other information.
 ********************************** 
 How to use:
-The function you have to run is this simple but please make sure to locate the "Thomas_Calvet_City_Choice" in your Local Disk (C:) otherwise you may encounter problems. 
+*First:* Create a folder named "Thomas_Calvet_City_Choice"
+*Second:* Put all downloaded files into the folder "Thomas_Calvet_City_Choice"
+*Third:* Place the folder "Thomas_Calvet_City_Choice" in your Local Disk (C:)
+*Fourth:* Open Jupyter Notebook via the ArcGIS panel
+*Fifth:* Select "CityChoice_Thomas_Calvet.ipynb" and open it
+*Sixth:* Enter the desired values and run the function
 **********************************
 Function:
 
@@ -31,5 +45,5 @@ or having question, feel free to
 contact me whatever the 
 subject is.
 
-Thomas.
+Thomas Calvet
 ********************************** 
